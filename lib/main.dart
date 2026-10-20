@@ -1,7 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:map_markers/screens/audit_manager.dart';
 import 'screens/home_screen.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  await AuditManager().init();
+
   runApp(const MyApp());
 }
 

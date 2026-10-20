@@ -12,7 +12,7 @@ class HomeScreen extends StatelessWidget {
       length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text('Map & places App'),
+          // title: const Text('Map & places App'),
           bottom: const TabBar(
             tabs: [
               Tab(icon: Icon(Icons.map), text: 'Map'),
